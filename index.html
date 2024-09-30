@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="./file.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock Paper Scissors Multiplayer</title>
+</head>
+<body>
+    <h1>Rock Paper Scissors Multiplayer</h1>
+    
+    <label for="rounds">Enter number of rounds:</label>
+    <input type="number" id="rounds" min="1" value="3">
+    <button onclick="startGame()">Start Game</button>
+
+    <h2>Player 1</h2>
+    <button onclick="playerChoice(1, 'rock')">Rock</button>
+    <button onclick="playerChoice(1, 'paper')">Paper</button>
+    <button onclick="playerChoice(1, 'scissors')">Scissors</button>
+    
+    <h2>Player 2</h2>
+    <button onclick="playerChoice(2, 'rock')">Rock</button>
+    <button onclick="playerChoice(2, 'paper')">Paper</button>
+    <button onclick="playerChoice(2, 'scissors')">Scissors</button>
+    
+    <h2 id="result"></h2>
+    <h3 id="score"></h3>
+    
+    <script src="script.js"></script>
+</body>
+</html>

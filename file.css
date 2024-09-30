@@ -1,0 +1,34 @@
+h1{
+    background-color: violet;
+    color:blue;
+    font-style:italic;
+}
+body {
+    background-color: rgb(252, 252, 252);
+}
+h1{
+    color: red;
+    text-align: center;
+}
+p{
+    font-family: Verdana;
+    text-align: center;
+    font-style: italic;
+}
+h2{
+    font-family: Verdana ;
+    text-align: left;
+    color: violet;
+    font-style: bold;
+}
+.hj {
+    border: 10px;
+    text-align: center;
+    color: rgb(9, 5, 63);
+}
+.o{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-style: italic;
+    font-size: large;
+}
+
